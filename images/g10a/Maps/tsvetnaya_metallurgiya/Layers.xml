@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Layers>
+	<LayerList>
+		<Layer>dob</Layer>
+		<Layer>cen</Layer>
+		<Layer>ob</Layer>
+		<Layer>osnova</Layer>
+	</LayerList>
+	<LayerGroups>
+		<Group Description="Добыча полезных ископаемых"><Layer>dob</Layer></Group>
+		<Group Description="Центры цветной металлургии"><Layer>cen</Layer></Group>
+		<Group Description="Добыча бокситов, производство глинозема и первичного алюминия"><Layer>ob</Layer></Group>
+	</LayerGroups></Layers>

@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Cache-control" content="public">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>§ 5. Картографічні проекції та способи картографічного зображення | Фізична географія України, 8 клас</title>
+  <link rel="stylesheet" media="all" href="/css/bootstrap-3.3.7.min.css">
+  <link rel="stylesheet" media="all" href="/css/ukrmap-1.min.css">
+  <link rel="stylesheet" media="all" href="/css/photoswipe.css">
+  <link rel="stylesheet" media="all" href="/css/pswp/default-skin.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="/css/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/css/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/css/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/css/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/css/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/css/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/css/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/css/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/css/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/css/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/css/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/css/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/css/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/css/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/css/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<body><script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6745874-37', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<div class="navbar navbar-default navbar-static-top">
+  <div class="container">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <span class="navbar-brand hidden-xs"><a href="/">geomap.com.ua</a></span>
+    <div class="navbar-collapse collapse navbar-responsive-collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown active">
+  <a href="/uk-g" class="dropdown-toggle" data-toggle="dropdown">
+    Географія <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+<li><a href="/uk-g4">Курс з географії "Я і Україна", 3-4 клас</a></li><li><a href="/uk-gk">Путівник "Київ для школярів", 5 клас</a></li><li><a href="/uk-g6">Загальна географія, 6 клас</a></li><li><a href="/uk-g7">Географія материків і океанів, 7 клас</a></li><li><a href="/uk-g8">Фізична географія України, 8 клас</a></li><li><a href="/uk-g9">Соціальна і економічна географія України, 9 клас</a></li><li><a href="/uk-g10">Соціально-економічна географія світу, 10 клас</a></li><li><a href="/uk-g11">Економічна і соціальна географія світу, 10-11 клас</a></li><li><a href="/uk-gc">Автономна Республіка Крим</a></li><li><a href="/uk-gr">Регіони України</a></li>  </ul>
+</li>
+<li class="dropdown">
+  <a href="/uk-wh" class="dropdown-toggle" data-toggle="dropdown">
+    Всесвітня історія <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+<li><a href="/uk-wh6">Інтегральний курс з Історії України та Всесвітньої історії, 6 клас</a></li><li><a href="/uk-wh7">Всесвітня історія - Історія середніх віків (V-XV ст), 7 клас</a></li><li><a href="/uk-wh8">Всесвітня історія - Нова історія (XVI-XVIII ст), 8 клас</a></li><li><a href="/uk-wh9">Всесвітня історія - Нова історія (1789-1914 рр.), 9 клас</a></li><li><a href="/uk-wh10">Всесвітня історія - Новітній період (1914-1939 рр.), 10 клас</a></li><li><a href="/uk-wh11">Всесвітня історія - Новітній період (1939-2007 рр.), 11 клас</a></li>  </ul>
+</li>
+<li class="dropdown">
+  <a href="/uk-uh" class="dropdown-toggle" data-toggle="dropdown">
+    Історія України <b class="caret"></b>
+  </a>
+  <ul class="dropdown-menu">
+<li><a href="/uk-uh5">Історія України, 5 клас. Знайдіть за картою відповіді на питання</a></li><li><a href="/uk-uh7">Історія України, 7 клас</a></li><li><a href="/uk-uh8">Історія України (XVI-XVIII ст), 8 клас</a></li><li><a href="/uk-uh9">Історія України (друга половина XVIII - початок XX століття), 9 клас</a></li><li><a href="/uk-uh10">Історія України (1914-1939 рр.), 10 клас</a></li><li><a href="/uk-uh11">Історія України (1939 - 2005 рр.), 11 клас</a></li>  </ul>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+  <li class="dropdown">
+    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      <img src="/css/images/blank.png" class="flag flag-uk"/> Українська <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+          <li>
+        <a href="/en-g8/858.html">
+          <img src="/css/images/blank.png" class="flag flag-en"/>
+          English        </a>
+      </li>
+          <li>
+        <a href="/be-g8/858.html">
+          <img src="/css/images/blank.png" class="flag flag-be"/>
+          Беларускую        </a>
+      </li>
+          <li>
+        <a href="/ru-g8/858.html">
+          <img src="/css/images/blank.png" class="flag flag-ru"/>
+          Русский        </a>
+      </li>
+        </ul>
+  </li>
+</ul>
+    </div>
+  </div>
+</div>
+<div class="navbar-default navbar-lower">
+  <div class="container container-navbar-lower">
+    <ul class="nav navbar-nav-lower">
+      <li><a href="/uk-g8">Фізична географія України, 8 клас</a></li>
+    </ul>
+  </div>
+</div>
+<div class="container container-main">
+  <div class="row">
+    <div class="col-lg-12">
+<h1>§ 5. Картографічні проекції та способи картографічного зображення <i style="color:grey;">(підручник)</i></h1><div style="float:left;margin:25px 25px 25px 0px;" class="hidden-sm hidden-xs">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ukrmap_soa_300x600 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:600px"
+     data-ad-client="ca-pub-1279458121635194"
+     data-ad-slot="9269291196"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div style="float:right;margin:25px 0 25px 25px;" class="hidden-xs">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ukrmap_soa_300x250 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-1279458121635194"
+     data-ad-slot="1746024390"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<center><a href="http://www.osvitanet.com.ua/base_book/geography8/Content.html" style="color: red; font-weight: bolder;"> </a></center>
+
+<br>
+<p class="MsoNormal" style="text-align: justify;"><b><span style="font-size: 14pt; color: black;">§ 5. Картографічні
+проекції та способи картографічного зображення </span></b></p>
+
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 14pt; color: black;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 14pt; color: black;">1. Пригадайте, чим
+географічна карта відрізняється від глобуса.</span></p>
+
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 14pt; color: black;">2. Чому на карті неминучими
+є спотворення зображуваних об’єктів?</span></p>
+
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 14pt; color: black;">3. Які вам відомі
+способи зображення об’єктів на картах?</span></p>
+
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 14pt; color: black;"><span style="">&nbsp;</span></span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt;"><b><span style="font-size: 14pt; color: rgb(0, 112, 192);">Географічна
+генералізація.</span></b><b><span style="font-size: 14pt; color: black;"> </span></b><span style="font-size: 14pt; color: black;">Навіть на картах найбільшого масштабу неможливо (та й
+недоцільно) показувати об'єкти з усіма подробицями і деталями. Для їх відбору і
+узагальнення здійснюють <b>картографічну генералізацію</b>.</span><span style="font-size: 14pt;"></span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt;"><span style="font-size: 14pt; color: black;">Генералізація
+визначається масштабом карти, її призначенням, тематикою. Найбільш суттєво
+впливає масштаб. Адже ділянка місцевості, яка в реальності має площу 1&nbsp;км<sup>2</sup>,
+на карті масштабу 1 : 10 000 займатиме 1&nbsp;дм<sup>2</sup>, на карті масштабу
+1 : 100 000 – 1&nbsp;см<sup>2</sup>, а на карті масштабу 1 : 1000 000 – 1&nbsp;мм<sup>2</sup>.
+Отже, всі об'єкти, показані на карті великого масштабу, графічно неможливо
+відобразити на картах дрібних масштабів. А тому при переході до більш дрібних
+масштабів вибирають лише найістотніші об'єкти місцевості (наприклад, населені
+пункти з людністю понад 10 тис. мешканців) і такі, що можуть бути виражені в
+масштабі цієї карти (наприклад, річки довжиною понад 100&nbsp;км), спрощують
+форми об'єктів (виключають невеликі звивини річок і доріг, випрямляють контури
+берегових ліній, кордонів і т. д.).</span></p>
+
+<p class="MsoNormal"><span style="">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt;"><b><span style="font-size: 14pt; color: rgb(0, 112, 192);">Картографічні
+проекції.</span></b><b><span style="font-size: 14pt; color: black;"> </span></b><span style="font-size: 14pt; color: black;">Усі географічні карти складають у певних картографічних проекціях. <b>Картографічна
+проекція </b>– це математично визначений спосіб зображення земної поверхні на
+площині (карті). Реальна земна поверхня дуже складна і не відповідає жодному
+геометричному тілу. Щоб відтворити цю поверхню на карті, спочатку її
+відображають на математично правильній фігурі (кулі), а потім переносять це
+зображення на площину, ніби проектуючи його. </span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt;"><span style="font-size: 14pt; color: black;">Картографічних
+проекцій існує багато, їх об’єднують у групи. Насамперед проекції поділяють за
+видом допоміжної поверхні, яка використовується при переході від кулі до
+площини карти. Розрізняють проекції <b><i>циліндричні</i></b><i>, </i>коли
+проектування з кулі здійснюється на поверхню циліндра, <b><i>конічні, </i></b>коли
+допоміжною поверхнею служить конус, і <b><i>азимутальні</i></b><i>, </i>коли
+проектування ведеться безпосередньо на площину. </span></p>
+
+<p class="MsoNormal" style="text-align: justify;"><i><span style="font-size: 14pt; color: black;">&nbsp;</span></i></p>
+
+<p class="MsoNormal" style="text-align: justify;"><i><span style="font-size: 14pt; color: black;"><img src="/images/g8b/g8_5_files/image002.gif" v:shapes="_x0000_i1025" height="218" width="623"> </span></i></p>
+
+<p class="MsoNormal" style="text-align: justify;"><b><i style=""><span style="font-size: 14pt; color: black;">Мал. Картографічні проекції за видом допоміжної поверхні</span></i></b><b><i style=""><span style="font-size: 14pt;" lang="RU"></span></i></b></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 1cm;"><b><span style="font-size: 14pt; color: black;">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 1cm;"><b><span style="font-size: 14pt; color: rgb(0, 112, 192);">Спотворення на географічних
+картах.</span></b><span style="font-size: 14pt; color: black;"> Як ви вже знаєте з курсу географії 6 класу, сферичну поверхню глобуса
+неможливо розгорнути у вигляді площини без розривів і складок. Отже, будь-яка
+карта має ті чи інші спотворення. Спотворюються довжини ліній, кути, площі і
+форми<b><i> </i></b>географічних об'єктів. Спотворення на карті тим більші, чим
+більша зображувана на ній поверхня. На планах місцевості і великомасштабних
+картах, що зображують невеликі ділянки місцевості, спотворень майже немає, але
+на дрібномасштабних картах вони бувають дуже великі. А звідси й неоднаковий
+масштаб довжин і площ у різних місцях карти. </span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 1cm;"><span style="font-size: 14pt; color: black;">Про характер і
+розміри спотворень на карті можна дізнатися, зіставивши картографічну сітку з
+градусною сіткою глобуса. На глобусі всі меридіани рівні між собою, паралелі
+проходять на однаковій відстані одна від одної. Всі меридіани перетинаються з
+паралелями під прямими кутами, тому на глобусі всі клітинки градусної сітки між
+двома сусідніми паралелями мають однакову форму і розміри, а клітинки між двома
+сусідніми меридіанами звужуються і зменшуються за величиною з віддаленням на
+північ і на південь від екватора.</span><span style="font-size: 14pt;"></span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 27pt;"><span style="font-size: 14pt; color: black;">Таким
+чином, ознаками спотворень на карті будуть: неоднакова форма і величина
+клітинок між двома сусідніми паралелями (спотворення форм і площ), різні за
+довжиною відрізки меридіанів між паралелями (спотворення довжин ліній і
+неоднаковий масштаб у різних частинах карти), відхилення величини кутів між
+меридіанами і паралелями від 90° (спотворення кутів).</span><span style="font-size: 14pt;"></span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 27pt;"><span style="font-size: 14pt; color: black;">Зображуючи
+земну поверхню на карті, доводиться враховувати кривизну Землі і вибирати ту чи
+іншу картографічну проекцію, яка дозволяє уникнути одного із спотворень чи
+послабити інше.</span><span style="font-size: 14pt;" lang="RU"></span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 27pt;"><span style="font-size: 14pt; color: black;">Залежно
+від характеру і розмірів спотворень проекції поділяють на рівнокутні,
+рівновеликі й довільні. <b><i>Рівнокутні проекції</i></b><i> </i>зберігають без
+спотворень кути і форми малих об'єктів, однак в них сильно деформуються довжини
+ліній і площі об'єктів. За картами, створеними в рівнокутній проекції, зручно
+прокладати маршрути суден і літаків, оскільки виміряні на таких картах кути
+точно відповідають кутам на місцевості, які можуть фіксуватися приладами.</span><span style="font-size: 14pt;" lang="RU"></span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 27pt;"><b><i><span style="font-size: 14pt; color: black;">Рівновеликі
+проекції</span></i></b><i><span style="font-size: 14pt; color: black;"> </span></i><span style="font-size: 14pt; color: black;">не спотворюють площ, однак форми об'єктів і кути в них сильно спотворені. <b><i>Довільні</i></b><i>
+<b>проекції</b></i> мають усі види спотворень, але вони розподіляються на карті
+найбільш вигідним чином. Наприклад, існують проекції з мінімальними
+спотвореннями в центральній частині, зате вони різко зростають на краях карти. </span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 27pt;"><span style="font-size: 14pt; color: black;">Для
+географічних карт території України здебільшого застосовують конічну довільну проекцію.
+На картах з такою проекцією порівняно мало спотворюються кути і площі, масштаб
+можна вважати постійним на невеликих відстанях навколо будь-якої точки. Тому на
+цих картах можна приблизно вимірювати кути, невеликі відстані і площі.</span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 27pt;"><span style="font-size: 14pt; color: black;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 14pt; color: black;"><img src="/images/g8b/g8_5_files/image004.gif" v:shapes="_x0000_i1026" height="199" width="623"> </span></p>
+
+<p class="MsoNormal" style="text-align: justify;"><b style=""><i style=""><span style="font-size: 14pt; color: black;">Мал. Геометричне
+зображення спотворень на прикладі конічних проекцій</span></i></b></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 27pt;"><span style="font-size: 14pt; color: black;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 27pt;"><b><span style="font-size: 14pt; color: rgb(0, 112, 192);">Види
+умовних знаків.</span></b><span style="font-size: 14pt; color: black;"> Як ви вже знаєте, для відображення різних географічних об'єктів, явищ і
+процесів на картах застосовують <b>умовні позначення. </b>До них належать умовні
+знаки, підписи, буквені і цифрові позначення, а також способи картографічного
+зображення. Розрізняють декілька видів умовних знаків. </span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 27pt;"><b><i><span style="font-size: 14pt; color: black;">Масштабні
+</span></i></b><span style="font-size: 14pt; color: black;">(або<b><i> контурні</i></b>)<b><i> </i></b><i><span style="">&nbsp;</span><b>умовні знаки</b></i> передають дійсні
+розміри об'єктів, які виражаються в масштабі карти. Такими знаками є <span style="">&nbsp;</span>контури лісу, луків, болота, озера тощо. <span class="SpellE"><b><i>Позамасштабними</i></b></span><b><i> <span style="">&nbsp;</span>умовними знаками</i></b> позначають об'єкти,
+які не можна показати в масштабі карти. Наприклад, заводи, аеродроми,
+пам'ятники, колодязі, окремі дерева, населені пункти (їх показують кружечками-пунсонами).
+</span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 27pt;"><b><i><span style="font-size: 14pt; color: black;">Пояснювальні
+умовні знаки</span></i></b><span style="font-size: 14pt; color: black;"> доповнюють характеристику об'єкта. Наприклад, стрілка
+біля знака річки показує напрямок її течії, малюнок листяного чи хвойного
+дерева в контурі лісу вказує переважання тих чи інших порід.<span style="">&nbsp; </span></span><span style="font-size: 14pt;"></span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 27pt;"><b><span style="font-size: 14pt; color: rgb(0, 112, 192);">Способи
+картографічного зображення.</span></b><b><span style="font-size: 14pt; color: black;"> </span></b><span style="font-size: 14pt; color: black;">На картах об'єкти, явища і процеси передають різними
+способами. <b><i>Спосіб значків </i></b>застосовують для зображення об'єктів, що
+не виражаються в масштабі карти. Значки можуть бути геометричними (наприклад,
+промислові центри), буквеними (місця видобутку корисних копалин) або мати
+вигляд наочних малюнків (якір як символ морського порту). </span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 36pt;"><b><i><span style="font-size: 14pt; color: black;">Способом
+лінійних знаків </span></i></b><span style="font-size: 14pt; color: black;">передають на картах лінійні об'єкти: берегову лінію, річки,
+кордони, дороги, трубопроводи. Вони масштабні за своєю довжиною та
+конфігурацією, але переважно <span class="SpellE">позамасштабні</span> за
+шириною. </span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 36pt;"><b><i><span style="font-size: 14pt; color: black;">Способом
+якісного фону</span></i></b><b><span style="font-size: 14pt; color: black;"> </span></b><span style="font-size: 14pt; color: black;">показують поділ території на однакові в якісному
+відношенні частини. Усі частини зафарбовують різними кольорами. Цей спосіб передає
+явища, які мають на земній поверхні суцільне поширення, тобто між зображуваними
+територіальними частинами на карті не може бути «білих плям». Цим способом
+зображують, наприклад, геологічну будову території, ґрунти, природні зони, держави,
+одиниці адміністративно-територіального устрою тощо.</span><span style="font-size: 14pt;"></span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 36pt;"><b><i><span style="font-size: 14pt; color: black;">Спосіб
+ареалів </span></i></b><span style="font-size: 14pt; color: black;">використовується для виділення на карті областей поширення якихось
+однорідних явищ. Ареали можна відобразити суцільною чи пунктирною межею,
+зафарбуванням, штриховкою, надписом чи малюнком. Явища, зображувані цим
+способом, на відміну від тих, які передаються способом якісного фону, не мають
+повсюдного територіального поширення: на карті вони виступають як окремі
+«плями» (льодовики, багаторічна мерзлота, болота, заповідники та ін.). </span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 36pt;"><b><i><span style="font-size: 14pt; color: black;">Спосіб
+ізоліній</span></i></b><span style="font-size: 14pt; color: black;"> застосовують для відображення явищ, які мають суцільний, безперервний і
+при цьому більш-менш плавний розподіл на земній поверхні. Ізолінії, як вам
+відомо, це лінії, що сполучають на картах точки, які на місцевості мають
+однакові кількісні показники якогось явища. Ізолінії, наприклад, показують висоту
+суходолу (горизонталі)<i>, </i>глибини морів (ізобати)<i>, </i>температуру
+повітря (ізотерми)<i>, </i>кількість опадів, солоність води. Для кращого
+сприйняття явища ділянки між сусідніми ізолініями часто зафарбовують у різні
+кольори (як, наприклад, показуючи рельєф на фізичних картах).</span><span style="font-size: 14pt;"></span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 36pt;"><b><i><span style="font-size: 14pt; color: black;">Способом
+знаків руху</span></i></b><span style="font-size: 14pt; color: black;"> передають явища, що переміщуються у просторі (наприклад, напрямки вітрів і
+течій). Кольором і шириною знаків руху можна відобразити характеристики явища –
+холодні або теплі течії, вітри влітку і взимку.</span><span style="font-size: 14pt;"></span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 36pt;"><b><i><span style="font-size: 14pt; color: black;">Спосіб
+картодіаграми</span></i></b><span style="font-size: 14pt; color: black;"> застосовують для відображення абсолютних значень
+кількісних показників на окремих територіях. Наприклад, цим способом показують
+кількість загальноосвітніх шкіл чи посівні площі зернових культур в областях
+України. Діаграми можуть мати вигляд стовпчиків, стрічок, квадратів, кругів або
+інших геометричних фігур. Часто їх ділять на частини відповідно до структури зображуваного
+об'єкта. Кожна з частин зафарбовується в інший колір і відповідає якійсь
+частці, що виражається у відсотках. Наприклад, діаграмою можна передати
+структуру шкіл за місцем їх розміщення (міські й сільські), структуру посівних
+площ за видом зернових культур (пшениця, жито, ячмінь і т. д.).</span><span style="font-size: 14pt;" lang="RU"></span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 36pt;"><b><i><span style="font-size: 14pt; color: black;">Способом
+картограми</span></i></b><i><span style="font-size: 14pt; color: black;"> </span></i><span style="font-size: 14pt; color: black;">відображають відносні значення кількісних показників на
+окремих територіях (наприклад, кількість учнів загальноосвітніх шкіл на 1 000
+мешканців області, середню врожайність зернових культур (центнерів з 1 га) в
+областях). Для картограми обов'язковим є наявність шкали, що показує, в яких
+межах змінюється показник. </span></p>
+
+<p class="MsoNormal" style="text-align: justify;"><b><span style="font-size: 14pt; color: black;">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="text-align: justify;"><b><span style="font-size: 14pt; color: black;">
+&lt; --&gt; <img src="/images/g8b/g8_5_files/image006.gif" v:shapes="_x0000_i1027" height="437" width="624"> </span></b></p>
+
+<p class="MsoNormal" style="text-align: justify;"><b><i style=""><span style="font-size: 14pt; color: black;">Мал. Способи картографічного зображення на картах</span></i></b></p>
+
+<p class="MsoNormal" style="text-align: justify;"><b><span style="font-size: 14pt; color: black;">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="text-align: justify;"><b><span style="font-size: 14pt; color: black;">Запам’ятайте</span></b></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt;"><span style="font-size: 14pt; color: black;">Картографічні
+проекції<b> </b>– це математично визначені способи зображення земної поверхні
+на карті. Залежно від характеру і розмірів спотворень розрізняють проекції
+рівнокутні, рівновеликі й довільні; за видом допоміжної поверхні – циліндричні<i>,
+</i>конічні та азимутальні. </span></p>
+
+<p class="MsoNormal" style="text-align: justify; text-indent: 35.4pt;"><span style="font-size: 14pt; color: black;">До
+умовних позначень на картах належать умовні знаки, підписи, цифрові позначення
+та способи картографічного зображення.</span></p>
+
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 14pt; color: black;">&nbsp;</span></p>
+
+<p class="MsoNormal" style="text-align: justify;"><img src="/images/g8b/g8_5_files/image008.gif" v:shapes="_x0000_s1026" align="left" height="98" hspace="12" width="98"> <b><span style="font-size: 14pt; color: black;"></span></b></p>
+
+<p class="MsoNormal" style="text-align: justify;"><b><span style="font-size: 14pt; color: black;">Запитання і завдання</span></b></p>
+
+<p class="MsoNormal" style="margin-left: 18pt; text-align: justify;"><span style="font-size: 14pt; color: black;">1. Чому на картах виникають спотворення? Які види спотворень є на карті</span><span style="font-size: 14pt; color: black;"> </span><span style="font-size: 14pt; color: black;">годинних поясів світу?</span></p>
+
+<p class="MsoNormal" style="margin-left: 18pt; text-align: justify;"><span style="font-size: 14pt; color: black;">2. Що таке картографічна проекція? Які її види ви знаєте?</span></p>
+
+<p class="MsoNormal" style="margin-left: 18pt; text-align: justify;"><span style="font-size: 14pt; color: black;">3. Знайдіть на фізичній карті України приклади різних умовних позначень.</span></p>
+
+<p class="MsoNormal" style="margin-left: 18pt; text-align: justify;"><span style="font-size: 14pt; color: black;">4*. Назвіть способи картографічного зображення, що використані на картах
+«Тектонічна будова України», «Чорне та Азовське моря».</span></p>
+
+<p class="MsoNormal" style="text-align: justify;"><span style="font-size: 14pt; color: black;">&nbsp;</span></p>
+<p align="center"><span style="font-size: 14pt;">&nbsp;&nbsp;</span></p>
+<ul class="pager">
+      <li class="previous"><a href="/uk-g8/857.html">&larr; § 4. Нагромадження та зберігання географічної інформації</a></li>
+        <li class="next"><a href="/uk-g8/859.html">§ 6. Топографічні карти &rarr;</a></li>
+  </ul>
+
+        </div>
+      </div><!--/row-->
+    </div> <!-- /container -->
+    <script src="/js/jquery-2.1.3.min.js"></script>
+    <script src="/js/bootstrap-3.3.7.min.js"></script>
+    <script src="/js/photoswipe.min.js"></script>
+    <script src="/js/photoswipe-ui-default.min.js"></script>
+    <script src="/js/gallery.js"></script>
+    <script src="/js/jquery.autocomplete.min.js"></script>
+    <script src="/js/search_autocomplete.js"></script>
+  </body>
+</html>

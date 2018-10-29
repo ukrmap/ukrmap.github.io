@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Layers>
+	<LayerList>
+		<Layer>aes</Layer>
+		<Layer>ges</Layer>
+		<Layer>tes</Layer>
+		<Layer>trybu</Layer>
+		<Layer>tsentry</Layer>
+		<Layer>osnova</Layer>
+	</LayerList>
+	<LayerGroups>
+		<Group Description="Атомные электростанции"><Layer>aes</Layer></Group>
+		<Group Description="Гидравлические электростанции"><Layer>ges</Layer></Group>
+		<Group Description="Тепловые электростанции"><Layer>tes</Layer></Group>
+		<Group Description="Добывающая промышленность"><Layer>trybu</Layer></Group>
+		<Group Description="Промышленные центры"><Layer>tsentry</Layer></Group>
+	</LayerGroups>
+</Layers>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<Layers>
+	<LayerList>
+		<Layer>sity</Layer>
+		<Layer>mys</Layer>
+		<Layer>orograf</Layer>
+		<Layer>gidro</Layer>
+		<Layer>techiya</Layer>
+		<Layer>osnova</Layer>
+	</LayerList>
+	<LayerGroups>
+		<Group Description="Населенные пункты"><Layer>sity</Layer></Group>
+		<Group Description="Мысы"><Layer>mys</Layer></Group>
+		<Group Description="Орографические подписи"><Layer>orograf</Layer></Group>
+		<Group Description="Подписи гидрографии"><Layer>gidro</Layer></Group>
+		<Group Description="Течения"><Layer>techiya</Layer></Group>
+	</LayerGroups>
+</Layers>

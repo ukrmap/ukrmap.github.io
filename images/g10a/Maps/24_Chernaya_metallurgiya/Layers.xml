@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<Layers><LayerList><Layer>dobycha</Layer><Layer>tsentry</Layer><Layer>obshie_obemy</Layer><Layer>osnova</Layer></LayerList><LayerGroups><Group Description="Выплавка стали и добыча железной руды"><Layer>obshie_obemy</Layer></Group><Group Description="Районы,крупнейшие и крупные центры черной металлургии"><Layer>tsentry</Layer></Group><Group Description="Добыча полезных ископаемых"><Layer>dobycha</Layer></Group></LayerGroups></Layers>

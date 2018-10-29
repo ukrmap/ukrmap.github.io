@@ -1,0 +1,30 @@
+<?xml version="1.0"  encoding="iso-8859-1"?>
+<Layers>
+<LayerList>
+<Layer>finik</Layer>
+<Layer>normany</Layer>
+<Layer>polo</Layer>
+<Layer>batyt</Layer>
+<Layer>diash</Layer>
+<Layer>columb</Layer>
+<Layer>dagama</Layer>
+<Layer>magelan</Layer>
+<Layer>dreyk</Layer>
+<Layer>tasman</Layer>
+<Layer>dezhnov</Layer>
+<Layer>osnova</Layer>
+</LayerList>
+<LayerGroups>
+<Group Description="Ô³í³ê³éö³"><Layer>finik</Layer></Group>
+<Group Description="Íîðìàíè"><Layer>normany</Layer></Group>
+<Group Description="Ìàðêî Ïîëî"><Layer>polo</Layer></Group>
+<Group Description="²áí Áàòòóòà"><Layer>batyt</Layer></Group>
+<Group Description="Áàðòîëîìåó Ä³àø"><Layer>diash</Layer></Group>
+<Group Description="Õðèñòîôîð Êîëóìá"><Layer>columb</Layer></Group>
+<Group Description="Âàñêî äà ¥àìà"><Layer>dagama</Layer></Group>
+<Group Description="Ìà´åëàí ³ Åëüêàíî"><Layer>magelan</Layer></Group>
+<Group Description="Ôðåíñ³ñ Äðåéê"><Layer>dreyk</Layer></Group>
+<Group Description="Àáåëü Òàñìàí"><Layer>tasman</Layer></Group>
+<Group Description="Ñåìåí Äåæíüîâ"><Layer>dezhnov</Layer></Group>
+</LayerGroups>
+</Layers>

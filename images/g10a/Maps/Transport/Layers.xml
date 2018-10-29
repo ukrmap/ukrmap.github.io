@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Layers>
+	<LayerList>
+		<Layer>railway</Layer>
+		<Layer>road</Layer>
+		<Layer>sudno</Layer>
+		<Layer>osnova</Layer>
+	</LayerList>
+	<LayerGroups>
+		<Group Description="Железные дороги"><Layer>railway</Layer></Group>
+		<Group Description="Автомобильные дороги"><Layer>road</Layer></Group>
+		<Group Description="Внутренние водные пути"><Layer>sudno</Layer></Group>
+	</LayerGroups></Layers>
