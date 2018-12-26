@@ -28,7 +28,7 @@ Disallow: /js/
 Disallow: /source/
 Disallow: /templates/
 Disallow: /video/
-Sitemap: http://ukrmap.su/sitemap.xml
+Sitemap: https://geomap.com.ua/sitemap.xml
 
 User-agent: Yandex
 Disallow: /cgi-bin/
@@ -59,8 +59,8 @@ Disallow: /js/
 Disallow: /source/
 Disallow: /templates/
 Disallow: /video/
-Sitemap: http://ukrmap.su/sitemap.xml
-Host: http://ukrmap.su
+Sitemap: https://geomap.com.ua/sitemap.xml
+Host: https://geomap.com.ua
 
 User-agent: ia_archiver-web.archive.org
 Disallow: /
